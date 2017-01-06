@@ -251,7 +251,6 @@ public class MainActivity extends AppCompatActivity implements
         AlertDialog.Builder bdr = new AlertDialog.Builder(this);
             bdr.setTitle("Congratulation");
             bdr.setMessage("Finish!!!\n" + "完成時間: "+txt_time.getText().toString()+"秒");
-            bdr.setMessage("Hello");
             bdr.setIcon(R.drawable.jjw);
             bdr.setCancelable(true);
             bdr.setNegativeButton("重來", this);
